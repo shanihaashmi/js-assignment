@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assignment</title>
+    </head>
+    <body>
+        <h2>various methods in console function</h2>
+        <script src="cons.js"></script>
+        <h2>Differece between var let and const in js</h2>
+        <h4>var</h4>
+        <p>A var variable can be declaring particular variable anywhere in html file.
+            It's a global variable.
+            It can be redeclared and updated.<br>
+            example:<br>
+                var name="Shan";<br>
+                console.log(name);<br>
+                output:shan<br>
+                var a=10;<br>
+                console.log(a);<br>
+                output:10<br>
+                
+        </p>
+        <h4>let</h4>
+        <p>A var variable can be declaring in the scope. It's work inside the scope.
+            It's a local variable.
+            It can be updated but not redeclared.<br>
+            example:<br>
+                let p=23;<br>
+                console.log(p);<br>
+                output:23<br>
+                
+                let name="San";
+                console.log(name);<br>
+                output:san<br>
+                
+        </p>
+        <h4>const</h4>
+        <p> The value cannot be changed.<br>
+            example:<br>
+              const country="India";
+              console.log(country);<br>
+              output:India<br>
+              country="uk";
+              console.log(name);<br>
+                output:error<br>
+        </p>
+        <h2>Datatypes</h2>
+        <p>
+            
+    //String<br>
+            var a = "Hi";    //String <br>
+    
+            //number data type<br>
+            var s = 10;     // integer<br>
+            var b = 80.5;   // floating-point<br>
+            var c = 4.5e+6;  // exponential notation<br>
+            alert(16 / 0);  // Output: Infinity<br>
+            alert(-16 / 0); // Output: -Infinity<br>
+            alert("Some text" / 2);       // Output: NaN<br>
+            alert("Some text" / 2 + 10);  // Output: NaN<br>
+    
+    //boolean<br>
+            var isReading = true;   // yes, I'm reading<br>
+            var isSleeping = false; // no, I'm not sleeping<br>
+            var a = 2, b = 5, c = 10;<br>
+           <br>alert(b > a) // Output: true<br>
+           alert(b > c) // Output: false<br>
+    
+    //Null Data Type<br>
+           var a = null;<br>
+           alert(a); // Output: null<br>
+    
+    //Array Data Type<br>
+           var colors = ["Red", "Yellow", "Green", "Orange"];<br>
+           var cities = ["London", "Paris", "New York"];<br>
+           <br>alert(colors[0]);   // Output: Red<br>
+           alert(cities[2]);   // Output: New York<br>
+
+    //The typeof Operator<br>
+
+            typeof 15;  // Returns: "number"<br>
+            typeof 42.7;  // Returns: "number"<br>
+            typeof 2.5e-4;  // Returns: "number"<br>
+            typeof Infinity;  // Returns: "number"<br>
+            typeof NaN;  // Returns: "number"<br>
+      // Strings<br>
+            typeof '';  // Returns: "string"<br>
+            typeof 'hello';  // Returns: "string"<br>
+            typeof '12';  // Returns: "string". Number within quotes is typeof string<br>
+
+      // Booleans<br>
+            typeof true;  // Returns: "boolean"<br>
+            typeof false;  // Returns: "boolean"<br>
+ 
+      // Undefined<br>
+            typeof undefined;  // Returns: "undefined"<br>
+            typeof undeclaredVariable; // Returns: "undefined"<br>
+      // Null<br>
+            typeof Null;  // Returns: "object"<br>
+           <br>
+      // Objects<br>
+            typeof {name: "John", age: 18};  // Returns: "object"<br>
+           <br>
+      // Arrays<br>
+          typeof [1, 2, 4];  // Returns: "object"<br>
+            <br>
+      // Functions<br>
+            typeof function(){};  // Returns: "function"<br>
+
+        </p>
+    </body>
+</html>
